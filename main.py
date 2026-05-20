@@ -28,7 +28,7 @@ DASHBOARD_PASSWORD = os.environ.get("DASHBOARD_PASSWORD", "changeme")
 DB_PATH = "yutai.db"
 PORT    = int(os.environ.get("PORT", 5000))
 
-TDNET_RSS_URL  = "https://www.release.tdnet.info/inbs/I_list_001_ja.rdf"
+TDNET_RSS_URL  = "http://webapi.yanoshin.jp/webapi/tdnet/list/today.rss"
 YUTAI_KEYWORDS = ["株主優待", "優待", "株主特典"]
 
 app = Flask(__name__)
